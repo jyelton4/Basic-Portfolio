@@ -1,0 +1,103 @@
+body {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    background: url("../images/what-the-hex.png");
+    line-height: 150%;
+}
+
+header {
+    background: #ffffff;
+    border: 1px solid;
+    border-color: #cccccc;
+}
+
+.header-content-wrapper {
+    width: 960px;
+    /* background: purple; */
+    margin: 0 auto;
+}
+
+.header-content-wrapper:after {
+    clear: both;
+    overflow: auto;
+    display: block;
+    content: "";
+}
+
+.name-box {
+    padding: 20px;
+    background: #4aaaa5;
+    width: fit-content;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper {
+    background: #ffffff;
+    border: 1px solid;
+    border-color: #dddddd;
+    width: 960px;
+    margin: 20px auto;
+}
+
+.line-feature {
+    background: #dddddd;
+    padding: 1px;
+    margin: 0px 20px;
+}
+
+footer {
+    background: #666666;
+    height: 60px;
+}
+
+.green-bar {
+    background: #4aaaa5;
+    height: 5px;
+}
+
+h1,h2,h3 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+.info-box {
+    float: right;
+    padding: 20px 0px;
+}
+
+.info-box h3 {
+    float: left;
+    font-size: 15px;
+}
+
+.about-me-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+.about-me-content p {
+    margin: 20px;
+}
+
+#me-picture {
+    float: left;
+    margin: 0px 20px;
+}
+
+.first-paragraph:after {
+    clear: both;
+    overflow: auto;
+    display: block;
+    content: "";
+}
+
+.content-inside {
+    min-height: calc(100vh - 160px);
+}
