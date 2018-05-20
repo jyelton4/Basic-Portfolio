@@ -13,7 +13,6 @@ header {
 
 .header-content-wrapper {
     width: 960px;
-    /* background: purple; */
     margin: 0 auto;
 }
 
@@ -25,7 +24,7 @@ header {
 }
 
 .name-box {
-    padding: 20px;
+    padding: 30px;
     background: #4aaaa5;
     width: fit-content;
     position: relative;
@@ -33,7 +32,7 @@ header {
     left: 0;
     float: left;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -47,8 +46,8 @@ header {
 
 .line-feature {
     background: #dddddd;
-    padding: 1px;
-    margin: 20px 20px;
+    padding: 2px;
+    margin: 20px 0px;
 }
 
 footer {
@@ -67,28 +66,32 @@ h1,h2,h3 {
 
 .info-box {
     float: right;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 .info-box h3 {
-    float: left;
     font-size: 15px;
+    display: inline-block;
+}
+
+.info-box h3:hover{
+    text-decoration: underline;
+    color: salmon;
 }
 
 .content-header {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: #4aaaa5;
-    padding: 20px;
 }
 
 .about-me-content p {
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 #me-picture {
     float: left;
-    margin: 0px 20px;
+    margin: 0px 20px 0px 0px;
 }
 
 .first-paragraph:after {
@@ -102,39 +105,8 @@ h1,h2,h3 {
     min-height: calc(100vh - 160px);
 }
 
-.window-block {
-    padding: 10px;
-    background: #4aaaa5;
-    /* position: absolute; */
-    /* top: 60px; */
-    width: 300px;
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-.window-row:after {
-    clear: both;
-    overflow: auto;
-    display: block;
-    content: "";
-}
-
-.window {
-    width: 275px;
-    position: relative;
-    /* display: inline-block; */
-    /* float: left; */
-    /* margin: 20px; */
-}
-
-.gallery {
-    float: left;
-    margin: 30px;
-}
-
 .content {
-    padding: 20px;
+    padding: 30px;
 }
 
 .column {
@@ -155,7 +127,7 @@ h1,h2,h3 {
       bottom: 35px;
       padding: 20px 0px;
       background: #4aaaa5;
-      width: 306.63px;
+      width: 299.95px;
       text-align: center;
       color: #ffffff;
   }
@@ -166,13 +138,28 @@ h1,h2,h3 {
       margin: 5px 0px;
   }
 
-  form {
-    padding: 20px;
-  }
-
   button {
     padding: 10px 30px;
-    margin-left: 20px;
+    margin: 15px 0px 0px 0px;
     background: #4aaaa5;
     color: #ffffff;;
+  }
+
+  .column img {
+      width: 100%;
+  }
+
+  a,span {
+      display: inline-block;
+  }
+
+  .column h2:hover {
+      text-decoration: underline;
+  }
+
+  button:hover {
+    background: #ffffff;
+    color: #4aaaa5;
+    border: 2px solid;
+    border-color: #666666;
   }
