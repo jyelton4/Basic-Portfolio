@@ -48,7 +48,7 @@ header {
 .line-feature {
     background: #dddddd;
     padding: 1px;
-    margin: 0px 20px;
+    margin: 20px 20px;
 }
 
 footer {
@@ -75,7 +75,7 @@ h1,h2,h3 {
     font-size: 15px;
 }
 
-.about-me-header {
+.content-header {
     font-size: 20px;
     font-weight: bold;
     color: #4aaaa5;
@@ -101,3 +101,78 @@ h1,h2,h3 {
 .content-inside {
     min-height: calc(100vh - 160px);
 }
+
+.window-block {
+    padding: 10px;
+    background: #4aaaa5;
+    /* position: absolute; */
+    /* top: 60px; */
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.window-row:after {
+    clear: both;
+    overflow: auto;
+    display: block;
+    content: "";
+}
+
+.window {
+    width: 275px;
+    position: relative;
+    /* display: inline-block; */
+    /* float: left; */
+    /* margin: 20px; */
+}
+
+.gallery {
+    float: left;
+    margin: 30px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    position: relative;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .text-block {
+      position: absolute;
+      bottom: 35px;
+      padding: 20px 0px;
+      background: #4aaaa5;
+      width: 306.63px;
+      text-align: center;
+      color: #ffffff;
+  }
+
+  input {
+      width: 100%;
+      height: 1.5em;
+      margin: 5px 0px;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  button {
+    padding: 10px 30px;
+    margin-left: 20px;
+    background: #4aaaa5;
+    color: #ffffff;;
+  }

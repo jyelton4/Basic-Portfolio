@@ -9,34 +9,39 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
+    <!-- Nav bar -->
     <header>
-        <div class="header-wrapper">
-            <div>
+        <div class="header-content-wrapper">
+            <div class="name-box">
                 <h1>Jay Yelton</h1>
             </div>
-            <div>
+            <div class="info-box">
                 <h3>About | </h3>
                 <h3>Portfolio | </h3>
                 <h3>Contact</h3>
             </div>
         </div>
     </header>
-    <div class="wrapper">
-        <div class="content">
-            <div>
-                <h1>About Me</h1>
+    <!-- End Nav bar --><!-- Begin Content -->
+    <div class="content-inside">
+        <div class="wrapper">
+            <div class="content">
+                <div class="content-header">
+                    <h1>Contact</h1>
+                </div>
+                <!-- Line  -->
+                <div class="line-feature"></div>
+                <!-- Begin Form -->
+                <form>
+                    Name<br>
+                    <input type="text" name="name"><br>
+                    Email<br>
+                    <input type="text" name="email"><br>
+                    Message<br>
+                    <input type="text" name="message" style="height: 200px;">
+                </form>
+                <button type="button" id="submit">Submit</button>
             </div>
-            <div class="line-feature"></div>
-            <div>
-                <h3>Name</h3>
-                <form id="name-entry-box"></form>
-                <h3>Email</h3>
-                <form id="email-entry-box"></form>
-                <h3>Message</h3>
-                <form id="message-entry-box"></form>
-            </div>
-            <div>
-                <button type="button" id="submit"></button>
         </div>
     </div>
     <footer>
